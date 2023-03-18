@@ -1,6 +1,36 @@
-.body{
+body{
     background-color: #fff;
-    font-family: Roboto;
-    width: 767px;
-    font-size: 10px;
+    font-family: 'Roboto';
+    max-width: 767px;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+}
+nav > img{
+    width: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+nav > form{
+    font-style: 'Roboto';
+    padding-left: 40%;
+    padding-top: 10px;
+}
+nav > form > .search-bar > input{
+    border: none;
+    border-style: none;
+}
+nav > h2{
+    padding-left: 35%;
+    padding-right: 30%;
+    font-weight:bold;
 }
