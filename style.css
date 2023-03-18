@@ -10,27 +10,53 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #f2f2f2;
+    background-color: #f7f7f7;
+    padding-bottom: 40px;
+    text-align: center;
 }
 nav > img{
-    width: 20%;
-    padding-left: 40%;
-    padding-right: 40%;
+    width: 150px;
+    padding-left: 41%;
+    padding-right: 45%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #fff;
+    justify-content: center;
 }
 nav > form{
     font-style: 'Roboto';
-    padding-left: 40%;
     padding-top: 10px;
+    text-align: center;
 }
 nav > form > .search-bar > input{
     border: none;
     border-style: none;
+    text-align: center;
 }
 nav > h2{
     padding-left: 35%;
     padding-right: 30%;
     font-weight:bold;
+    font-size: 20px;
 }
+nav > p{
+    color: #7d7d7d;
+    justify-content: space-evenly;
+    width: 260px;
+}
+nav > button{
+    width: 25%;
+    margin-left: 38%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: #ff79da;
+    border-color: transparent;
+    box-shadow: 1px 1px 1px 1px #9d9d9d;
+}
+nav > button > a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
