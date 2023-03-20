@@ -121,6 +121,23 @@ article{
 .tabs > a{
     text-decoration: none;
     color: #000000;
-    text-align: justify;
-    
+}
+.tabs p{
+    margin-left: 10px;
+    margin-bottom: -1px;
+    margin-top: 3px;
+}
+.tabs button{
+    margin-left: 250px;
+    border: none;
+    background-color: #fff;
+}
+footer{
+    background-color: #1b0d0d;
+}
+footer > img{
+    width: 100px;
+    padding-top: 50px;
+    padding-left: 40px;
+    color: #fff;
 }
