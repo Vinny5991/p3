@@ -20,26 +20,29 @@ nav > img{
     padding-right: 45%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
     justify-content: center;
 }
-nav > form{
+nav form{
     font-style: 'Roboto';
     padding-top: 10px;
     text-align: center;
+    background-color: #efefef;
+    padding-bottom: 10px;
 }
-nav > form > .search-bar > input{
+nav input{
     border: none;
-    border-style: none;
     text-align: center;
+    background-color: #efefef;
+    font-weight: 600;
 }
-nav > h2{
+nav h2{
     padding-left: 35%;
     padding-right: 30%;
     font-weight:bold;
     font-size: 20px;
 }
-nav > p{
+nav p{
     color: #7d7d7d;
     padding-left: 35%;
     width: 260px;
@@ -79,6 +82,7 @@ article{
     border-radius: 25px;
     justify-content: flex-start;
     background-color: #9356dc;
+    z-index: 10;
     
 }
 .explanation{
@@ -92,6 +96,7 @@ article{
     box-shadow: 1px 1px 1px 1px #d6d6d6;
     margin-top: 20px;
     text-align: center;
+    z-index: 1;
 }
 .explanation > span{
     margin-top: 15px;
@@ -109,6 +114,7 @@ article{
     border-radius: 20px;
     margin-bottom: 10px;
     margin-left: 30%;
+    box-shadow: 1px 1px 1px 1px #d6d6d6;
 }
 .tabs img{
     width: 290px;
@@ -134,6 +140,7 @@ article{
 }
 footer{
     background-color: #1b0d0d;
+    padding-bottom: 50px;
 }
 footer img{
     width: 100px;
@@ -151,4 +158,8 @@ footer  a{
 footer li{
     display: flex;
     flex-direction: row;
+}
+footer span{
+    margin-top: 16px;
+    margin-right: 10px;
 }
