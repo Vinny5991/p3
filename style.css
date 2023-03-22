@@ -15,8 +15,8 @@ nav{
     text-align: center;
 }
 nav img{
-    width: 150px;
-    padding-left: 41%;
+    min-width: 25%;
+    padding-left: 38%;
     padding-right: 45%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -37,23 +37,23 @@ nav input{
     font-weight: 600;
 }
 nav h2{
-    padding-left: 35%;
+    padding-left: 30%;
     padding-right: 30%;
     font-weight:bold;
     font-size: 20px;
 }
 nav p{
     color: #7d7d7d;
-    padding-left: 35%;
+    padding-left: 33%;
     width: 260px;
 }
 nav > button{
     width: 25%;
     margin-left: 38%;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     border-radius: 25px;
-    background-color: #ff79da;
+    background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
     border-color: transparent;
     box-shadow: 1px 1px 1px 1px #9d9d9d;
 }
@@ -80,7 +80,7 @@ article{
     height: 20px;
     width: 15px;
     margin-top: 35px;
-    margin-left: 225px;
+    margin-left: 28%;
     margin-right: -10px;
     padding-left: 5px;
     border-radius: 25px;
@@ -169,4 +169,9 @@ footer li{
 footer span{
     margin-top: 16px;
     margin-right: 10px;
+}
+
+.dish{
+    min-width: 90%;
+    padding-left: 5%;
 }
