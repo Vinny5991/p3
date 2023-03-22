@@ -1,7 +1,7 @@
 body{
     background-color: #fff;
     font-family: 'Roboto';
-    max-width: 767px;
+    min-width: 767px;
     font-size: 15px;
     padding: 0px;
     margin: 0px;
@@ -14,7 +14,7 @@ nav{
     padding-bottom: 40px;
     text-align: center;
 }
-nav > img{
+nav img{
     width: 150px;
     padding-left: 41%;
     padding-right: 45%;
@@ -63,6 +63,10 @@ nav > button > a{
     font-weight: 500;
 }
 
+header img{
+    width: 150px;
+}
+
 .title {
     margin-left: 30%;
 
@@ -97,6 +101,9 @@ article{
     margin-top: 20px;
     text-align: center;
     z-index: 1;
+}
+.explanation:hover{
+    background-color: #e4cfff;
 }
 .explanation > span{
     margin-top: 15px;
