@@ -55,7 +55,7 @@ nav > button{
     border-radius: 25px;
     background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
     border-color: transparent;
-    box-shadow: 1px 1px 1px 1px #9d9d9d;
+    box-shadow: 0px 1px 3px #9d9d9d;
 }
 nav > button > a{
     color: #fff;
@@ -75,6 +75,7 @@ header img{
 article{
     display: flex;
     flex-direction: row;
+    min-width: 90%;
 }
 .nr{
     height: 20px;
@@ -116,15 +117,17 @@ article{
     margin-top: 60px;
 }
 .tabs{
-    width: 300px;
+    width: 90%;
+    height: 90%;
     background-color: #fff;
     border-radius: 20px;
     margin-bottom: 10px;
-    margin-left: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
     box-shadow: 1px 1px 1px 1px #d6d6d6;
 }
 .tabs img{
-    width: 290px;
+    width: 90%px;
     height: 150px;
     margin-left: 5px;
     margin-top: 5px;
@@ -146,7 +149,7 @@ article{
     background-color: #fff;
 }
 footer{
-    background-color: #1b0d0d;
+    background-color: #353535;
     padding-bottom: 50px;
 }
 footer img{
