@@ -80,9 +80,22 @@ nav>button>a {
     margin-left: 7%;
     font-size: 120%;
 }
-.title p{
-   font-size: 150%; 
-   text-decoration: underline #99e2d0;
+
+.title p {
+    font-size: 150%;
+    width: fit-content;
+    position: relative;
+    padding-bottom: 1%;
+    margin-bottom: 4%;
+}
+.title p::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    left: 0%;
+    border-bottom: 3px solid #99e2d0;
 }
 
 
@@ -234,6 +247,10 @@ footer span {
     flex-direction: row;
     background-color: #f6f6f6;
 }
+.nav-menu a {
+    display: flex;
+    flex-direction: column;
+}
 
 .nav-menu>span {
     display: block;
@@ -259,6 +276,8 @@ header img {
     background-color: #f6f6f6;
     border-radius: 60px 60px 0px 0px;
     padding-top: 5%;
+    margin-top: -7em;
+    position: relative;
     z-index: 2;
 }
 
@@ -290,7 +309,8 @@ header img {
     box-shadow: 5px 2px 1px 2px #ebebeb;
     font-size: 150%;
 }
-.dish h5{
+
+.dish h5 {
     margin-left: 80%;
-    
+
 }
