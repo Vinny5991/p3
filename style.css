@@ -250,13 +250,20 @@ footer span {
 }
 
 .nav-menu a {
+    margin-left: 10%;
+    padding-left: 10%;
+    margin-right: 10%;
+    font-size: 200%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    
+    margin-top: 2%;
 }
 
 .nav-menu>span {
     display: block;
     margin-right: 10%;
+    padding-left: 10%;
     z-index: 2;
 }
 
@@ -328,16 +335,17 @@ header img {
     text-align: center;
 }
 
-.order>button {
+.order button {
     font-size: 140%;
-    width: 40%;
+    color: #fff;
+    width: 30%;
     height: 40%;
     margin: 3% auto;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     border-radius: 25px;
     background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
-    border: rgba(280, 280, 280, 0.2);
+    border: rgba(280, 350, 300, 0.4);
     box-shadow: 0px 1px 3px #9d9d9d;
 }
 
