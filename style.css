@@ -241,7 +241,12 @@ footer span {
 
 
 
-
+nav>a{
+    font-size: 180%;
+    position: absolute;
+    top: 1em;
+    left: 3em;
+}
 
 .nav-menu {
     display: flex;
@@ -253,14 +258,13 @@ footer span {
     margin-left: 10%;
     padding-left: 10%;
     margin-right: 10%;
-    font-size: 200%;
     display: flex;
     flex-direction: row;
     
     margin-top: 2%;
 }
 
-.nav-menu>span {
+.nav-menu span {
     display: block;
     margin-right: 10%;
     padding-left: 10%;
@@ -270,8 +274,7 @@ footer span {
 .nav-menu img {
     display: block;
     background: none;
-    width: 90%;
-    margin-left: 10%;
+    width: 150%;
     z-index: 1;
 }
 
@@ -342,7 +345,7 @@ header img {
     height: 40%;
     margin: 3% auto;
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     border-radius: 25px;
     background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
     border: rgba(280, 350, 300, 0.4);
