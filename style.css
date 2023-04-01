@@ -192,10 +192,12 @@ article {
 }
 
 .tabs button {
-    margin-left: 85%;
+    margin-left: 80%;
+    margin-bottom: 50%;
     font-size: 160%;
     border: none;
     background: none;
+    position: absolute;
 }
 
 .tabs button :hover {
@@ -359,15 +361,22 @@ header img {
 }
 
 
-@media and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     body {
         width: 100%
     }
+    
+    #menu article{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 
-@media and (min-width: 990px) {
+@media screen and (min-width: 990px) {
 
     body {
         width: 100%
