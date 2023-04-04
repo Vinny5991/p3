@@ -1,8 +1,8 @@
 body {
     background-color: #fff;
     font-family: 'Roboto';
-    min-width: 767px;
-    font-size: 15px;
+    min-width: 360px;
+    font-size: 8px;
     padding: 0px;
     margin: 0px;
 }
@@ -162,7 +162,7 @@ article {
 
 .tabs {
     width: 90%;
-    height: 400px;
+    height: 30em;
     background-color: #fff;
     border-radius: 20px;
     margin-bottom: 10%;
@@ -182,7 +182,7 @@ article {
 
 .tabs_txt p {
     margin-left: 3%;
-    margin-bottom: 1%;
+    margin-bottom: 0%;
     margin-top: 2%;
     font-size: 130%;
     width: 100%;
@@ -292,7 +292,7 @@ nav>a {
 header img {
     width: 100%;
     z-index: 1;
-    height: 511px;
+    height: 35em;
 }
 
 
@@ -372,18 +372,16 @@ header img {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 
     body {
         width: 100%
     }
 
-    #menu>article {
+    #menu_tabs {
         width: 40%;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column-reverse;
     }
 }
 
