@@ -227,7 +227,7 @@ footer {
 footer img {
     width: 15%;
     padding-top: 7%;
-    padding-left: 5%;
+    padding-left: 3.5em;
     font-size: 140%;
     filter: brightness(0) invert(1);
 }
@@ -239,7 +239,9 @@ footer a {
     color: #fff;
     list-style: none;
 }
-
+footer ul{
+    margin-left: 1em;
+}
 footer li {
     display: flex;
     flex-direction: row;
@@ -399,7 +401,7 @@ header img {
     .tabs{
         height: 50em;
     }
-    .tabs_txt p{
+    .tabs_txt dzp{
         font-size: 180%;
         padding-top: 1.5em;
         padding-left: 1em;
