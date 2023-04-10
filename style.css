@@ -5,6 +5,7 @@ body {
     font-size: 8px;
     padding: 0px;
     margin: 0px;
+
 }
 
 nav {
@@ -17,8 +18,8 @@ nav {
 }
 
 nav img {
-    padding-left: 38%;
-    padding-right: 45%;
+    padding-left: 37%;
+    padding-right: 37%;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #ffffff;
@@ -57,7 +58,7 @@ nav p {
 }
 
 nav>button {
-    font-size: 140%;
+    font-size: 150%;
     width: 40%;
     height: 40%;
     margin: 3% auto;
@@ -111,7 +112,7 @@ article {
     color: #fff;
     height: 1.2em;
     width: 1.2em;
-    margin-top: 7%;
+    margin-top: 2.5em;
     margin-left: 2.5em;
     border-radius: 25px;
     background-color: #9356dc;
@@ -124,8 +125,8 @@ article {
     flex-direction: row;
     width: 140%;
     font-size: 140%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     margin-left: 3em;
     margin-right: 10%;
     border-style: none;
@@ -239,9 +240,11 @@ footer a {
     color: #fff;
     list-style: none;
 }
-footer ul{
+
+footer ul {
     margin-left: 1em;
 }
+
 footer li {
     display: flex;
     flex-direction: row;
@@ -379,6 +382,24 @@ header img {
     body {
         width: 100%
     }
+    nav{
+        max-width: 100%;
+        width: 100%;
+        font-size: 140%;
+    }
+    header>img{
+        object-fit: cover;
+    }
+
+    #how{
+        font-size: 140%;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 30%;
+    }
+    #how>.title{
+        margin-left: 10%;
+    }
 
     #menu_tabs {
         width: 100%;
@@ -386,9 +407,26 @@ header img {
         display: flex;
         flex-wrap: wrap;
     }
-    article{
+    
+   
+
+    article {
         width: 50%;
         max-width: 50%;
+    }
+    .title{
+        font-size: 220%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 40%;
+    }
+    #foods>article{
+        width: 90%;
+        max-width: 100%;
+        margin-left: 4%;
+    }
+    .dish{
+        width: 100%;
     }
 }
 
@@ -398,12 +436,34 @@ header img {
     body {
         width: 100%
     }
-    .tabs{
+
+    nav{
+        font-size: 150%;
+    }
+
+    .tabs {
         height: 50em;
     }
-    .tabs_txt dzp{
+
+    .tabs_txt {
         font-size: 180%;
         padding-top: 1.5em;
         padding-left: 1em;
+    }
+
+
+    #how_querry {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 120%;
+        margin-left: -30%;
+
+    }
+    .title{
+        font-size: 220%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 40%;
     }
 }
