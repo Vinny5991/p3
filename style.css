@@ -144,6 +144,7 @@ article {
 
 .explanation:hover {
     background-color: #f5edff;
+    box-shadow: 1px 1px 1px 1px #aeaeae;
 }
 
 .explanation>span {
@@ -382,22 +383,25 @@ header img {
     body {
         width: 100%
     }
-    nav{
+
+    nav {
         max-width: 100%;
         width: 100%;
         font-size: 140%;
     }
-    header>img{
+
+    header>img {
         object-fit: cover;
     }
 
-    #how{
+    #how {
         font-size: 140%;
         max-width: 100%;
         width: 100%;
         margin-left: 30%;
     }
-    #how>.title{
+
+    #how>.title {
         margin-left: 10%;
     }
 
@@ -407,25 +411,28 @@ header img {
         display: flex;
         flex-wrap: wrap;
     }
-    
-   
+
+
 
     article {
         width: 50%;
         max-width: 50%;
     }
-    .title{
+
+    .title {
         font-size: 220%;
         margin-top: 3em;
         margin-bottom: 3em;
         margin-left: 40%;
     }
-    #foods>article{
+
+    #foods>article {
         width: 90%;
         max-width: 100%;
         margin-left: 4%;
     }
-    .dish{
+
+    .dish {
         width: 100%;
     }
 }
@@ -437,7 +444,7 @@ header img {
         width: 100%
     }
 
-    nav{
+    nav {
         font-size: 150%;
     }
 
@@ -458,12 +465,16 @@ header img {
         flex-direction: row;
         font-size: 120%;
         margin-left: -30%;
-
     }
-    .title{
-        font-size: 220%;
+
+    .explanation{
+        height: 3.5em;
+    }
+
+    .title {
+        font-size: 180%;
         margin-top: 3em;
         margin-bottom: 3em;
-        margin-left: 40%;
+        margin-left: 35%;
     }
 }
