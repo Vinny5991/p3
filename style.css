@@ -445,7 +445,7 @@ header img {
     }
 
     nav {
-        font-size: 150%;
+        font-size: 200%;
     }
 
     .tabs {
@@ -476,5 +476,11 @@ header img {
         margin-top: 3em;
         margin-bottom: 3em;
         margin-left: 35%;
+    }
+    footer{
+        font-size: 200%;
+    }
+    footer>ul{
+        margin-left: 2.5em;
     }
 }
