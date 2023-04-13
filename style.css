@@ -212,9 +212,8 @@ article {
     padding-right: 1.5em;
 }
 
-.tabs button :hover {
-    color: #9356dc;
-    border-color: #9356dc;
+.tabs>button :hover {
+    fill: #9356dc;
 }
 
 
