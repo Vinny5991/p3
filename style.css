@@ -329,7 +329,7 @@ header img {
     background: none;
 }
 
-.dish {
+.dish_info {
     background-color: #fff;
     min-width: 90%;
     padding-left: 5%;
@@ -341,7 +341,7 @@ header img {
     height: 6.5em;
 }
 
-.dish h5 {
+.dish_info h5 {
     position: relative;
     top: -30%;
     left: 87%;
