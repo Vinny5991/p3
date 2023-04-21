@@ -210,10 +210,13 @@ article {
     background: none;
     padding-top: 1.5em;
     padding-right: 1.5em;
-}
+    transform: scale(1);
+    }
 
-.tabs>button :hover {
+.tabs button :hover {
     fill: #9356dc;
+    cursor: pointer;
+    transform: scale(2);
 }
 
 
@@ -372,21 +375,27 @@ header img {
     width: 0%;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    align-items: center;
+    margin-top: 0px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .dish_hidden-check span{
-    height: 2em;
+    height: 1.5em;
+    width: 1.5em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
     border-radius: 50%;
     color: #99e2d0;
     background-color: #fff;
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
 .dish:hover .dish_info {
     width: 80%;
 }
 
-.dish:hover .hidden-control {
+.dish:hover .dish_hidden-check {
     width: 14%;
     padding: 15px 3%;
 }
