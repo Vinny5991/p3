@@ -8,6 +8,9 @@ body {
 
 }
 
+.bdy{
+    
+}
 nav {
     display: flex;
     flex-direction: column;
@@ -211,55 +214,55 @@ article {
     padding-top: 1.5em;
     padding-right: 1.5em;
     transform: scale(1);
-    }
+}
 
-    .tabs_btn {
-        position: relative;
-      }
-      
-      .tabs_btn button {
-        background-color: transparent;
-        border: none;
-        outline: none;
-        cursor: pointer;
-      }
-      
-      .tabs_btn button .fa-heart {
-        font-size: 24px;
-        color: #000000;
-        transition: all 0.5s;
-      }
-      
-      .tabs_btn button:hover .fa-heart {
-        transform: scale(0.8);
-        color: #9356dc;
-      }
-      
-      .tabs_btn button:active .fa-heart {
-        transform: scale(0.6);
-        color: #9356dc;
-      }
-      
-      .tabs_btn button:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 100%;
-        background-color: #9356dc;
-        transition: all 0.5s;
-        border-radius: 50%;
-        z-index: -1;
-      }
-      
-      .tabs_btn button:hover:after {
-        width: 100%;
-      }
-      
-      .tabs_btn button:active:after {
-        width: 50%;
-      }
+.tabs_btn {
+    position: relative;
+}
+
+.tabs_btn button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tabs_btn button .fa-heart {
+    font-size: 24px;
+    color: #000000;
+    transition: all 0.5s;
+}
+
+.tabs_btn button:hover .fa-heart {
+    transform: scale(0.8);
+    color: #9356dc;
+}
+
+.tabs_btn button:active .fa-heart {
+    transform: scale(0.6);
+    color: #9356dc;
+}
+
+.tabs_btn button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #9356dc;
+    transition: all 0.5s;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.tabs_btn button:hover:after {
+    width: 100%;
+}
+
+.tabs_btn button:active:after {
+    width: 50%;
+}
 
 
 
@@ -301,7 +304,7 @@ footer span {
     margin-right: 10px;
 }
 
-footer p{
+footer p {
     margin-bottom: 0.1em;
 }
 
@@ -424,7 +427,7 @@ header img {
     border-radius: 0px 20px 20px 0px;
 }
 
-.dish_hidden-check span{
+.dish_hidden-check span {
     height: 1.5em;
     width: 1.5em;
     padding-left: 0.5em;
@@ -486,7 +489,7 @@ header img {
         width: 100%
     }
 
-   
+
     nav {
         max-width: 100%;
         width: 100%;
