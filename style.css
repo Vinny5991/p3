@@ -294,13 +294,16 @@ span.fa-regular {
 }
 
 span.fa-solid {
-    color: #9356dc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6c03ec), to(#ed73da));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
     opacity: 0;
     transition: 0.2s all ease-in-out;
 }
 
+
 span.fa-solid.fa-heart:hover {
-    color: #9356dc;
+    color: #9f5adc;
     opacity: 1;
     cursor: pointer;
 }
@@ -493,6 +496,19 @@ header img {
     padding: 15px 3%;
 }
 
+.dish:hover .dish_hidden-check span{
+    animation: rotate-check 1s 1 linear;
+  }
+  @keyframes rotate-check{
+    0%{
+      transform: rotate(180deg); 
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
+
 .dish:hover .dish_hidden-check:hover {
     background-color: #99e2d0;
     cursor: pointer;
@@ -635,7 +651,7 @@ header img {
         height: 90px;
         animation: spin 2s linear infinite;
         position: absolute;
-        top: 30%;
+        top: 25%;
         left: 45%;
         transform: translate(-50%, -50%);
     }
