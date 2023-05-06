@@ -641,6 +641,9 @@ header img {
     .dish {
         width: 100%;
     }
+    .resteau span{
+        margin-top: 0.5em;
+    }
 }
 
 
@@ -684,7 +687,7 @@ header img {
 
     .tabs_txt {
         font-size: 180%;
-        padding-top: 1.5em;
+        padding-top: 1em;
         padding-left: 1em;
     }
 
@@ -715,4 +718,6 @@ header img {
     footer>ul {
         margin-left: 2.5em;
     }
+
+   
 }
