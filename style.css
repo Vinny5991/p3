@@ -421,6 +421,7 @@ header img {
     font-size: 250%;
     transform: scale(1);
 }
+
 .resteau span.fa-regular {
     color: #000;
     opacity: 1;
@@ -642,7 +643,8 @@ header img {
     .dish {
         width: 100%;
     }
-    .resteau span{
+
+    .resteau span {
         margin-top: 0.5em;
     }
 }
@@ -686,7 +688,8 @@ header img {
     .tabs {
         height: 50em;
     }
-    .tabs span{
+
+    .tabs span {
         padding-top: 1em;
     }
 
@@ -713,11 +716,11 @@ header img {
         border-radius: 50px;
     }
 
-    .explanation p{
+    .explanation p {
         margin-left: 2em;
     }
 
-    .nr{
+    .nr {
         margin-left: 0.3em;
         border-radius: 40px;
         margin-top: 1.6em;
@@ -738,5 +741,5 @@ header img {
         margin-left: 2.5em;
     }
 
-   
+
 }
