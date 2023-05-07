@@ -648,10 +648,10 @@ header img {
         width: 100%;
     }
 
-    .resteau 
-    {span {
-        margin-top: 0.5em;
-    }
+    .resteau {
+        span {
+            margin-top: 0.5em;
+        }
     }
 }
 
@@ -693,10 +693,10 @@ header img {
 
     .tabs {
         height: 50em;
-    }
 
-    .tabs span {
-        padding-top: 1em;
+        span {
+            padding-top: 1em;
+        }
     }
 
     .tabs_txt {
@@ -720,11 +720,13 @@ header img {
         font-size: 110%;
         margin-left: 1em;
         border-radius: 50px;
+
+        p {
+            margin-left: 2em;
+        }
     }
 
-    .explanation p {
-        margin-left: 2em;
-    }
+
 
     .nr {
         margin-left: 0.3em;
@@ -741,11 +743,12 @@ header img {
 
     footer {
         font-size: 200%;
+
+        ul {
+            margin-left: 2.5em;
+        }
     }
 
-    footer>ul {
-        margin-left: 2.5em;
-    }
 
 
 }
