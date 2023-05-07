@@ -8,7 +8,7 @@ body {
 
 }
 
-
+/* loading annimation */
 
 .load-container img {
     color: #f5f5f5;
@@ -86,6 +86,7 @@ body.load {
     overflow: hidden;
 }
 
+/* head main page */
 
 nav {
     display: flex;
@@ -177,7 +178,7 @@ nav>.button>a {
     border-bottom: 3px solid #99e2d0;
 }
 
-
+/* how it works */
 
 article {
     display: flex;
@@ -231,7 +232,7 @@ article {
     color: #7e7e7e;
 }
 
-
+/* menu folders */
 
 
 #menu {
@@ -311,6 +312,7 @@ span.fa-solid.fa-heart:hover {
     cursor: pointer;
 }
 
+/* footer */
 
 footer {
     background-color: #353535;
@@ -353,7 +355,7 @@ footer p {
     margin-bottom: 0.1em;
 }
 
-
+/* menu head */
 
 nav>a {
     font-size: 180%;
@@ -397,7 +399,6 @@ header img {
     z-index: 1;
     height: 35em;
 }
-
 
 #foods {
     background-color: #f6f6f6;
@@ -444,6 +445,8 @@ header img {
     opacity: 1;
     cursor: pointer;
 }
+
+/* dishes to order */
 
 .dish {
     display: flex;
@@ -561,7 +564,7 @@ header img {
     font-weight: 500;
 }
 
-
+/* media querry tablet view */
 
 @media screen and (min-width: 767px) {
 
@@ -653,6 +656,7 @@ header img {
     }
 }
 
+/* media querry desktop view */
 
 @media screen and (min-width: 990px) {
 
