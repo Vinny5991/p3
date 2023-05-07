@@ -8,11 +8,7 @@ body {
 
 }
 
-// *****************
-// -----------------
-// LOADING STYLES
-// _________________
-// *****************
+
 
 .load-container img {
     color: #f5f5f5;
@@ -90,11 +86,6 @@ body.load {
     overflow: hidden;
 }
 
-// *****************
-// -----------------
-// MAIN PAGE STYLES
-// _________________
-// *****************
 
 nav {
     display: flex;
@@ -320,11 +311,6 @@ span.fa-solid.fa-heart:hover {
     cursor: pointer;
 }
 
-// *****************
-// -----------------
-// FOOTER STYLES
-// _________________
-// *****************
 
 footer {
     background-color: #353535;
@@ -367,11 +353,7 @@ footer p {
     margin-bottom: 0.1em;
 }
 
-// *****************
-// -----------------
-// MENU STYLES
-// _________________
-// *****************
+
 
 nav>a {
     font-size: 180%;
@@ -579,11 +561,7 @@ header img {
     font-weight: 500;
 }
 
-// *****************
-// -----------------
-// QUERRY STYLES
-// _________________
-// *****************
+
 
 @media screen and (min-width: 767px) {
 
